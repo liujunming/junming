@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="111D296F-8A0C-4985-816F-201B5F77EEFC">
+    <Notes>
+        <Note ID="8" FontSize="16.0" Position="213.742188,188.425781" Width="158.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.900595 0.260383 0.214563</TextColor>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>Buffer Management</String>
+            <ConnectedNoteIDs>9-10</ConnectedNoteIDs>
+            <PointsToNoteIDs>9-10</PointsToNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="520.757812,136.914062" Width="31.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.332069 0.640919 0.920381</TextColor>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>LRU</String>
+            <ConnectedNoteIDs>8, 14</ConnectedNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="518.0,246.410156" Width="38.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.332069 0.640919 0.920381</TextColor>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>LIRS</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="623.773438,92.425781" Width="119.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>Token-ordered LRU</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="757.929688,92.0" Width="193.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>https://lwn.net/Articles/96621/</String>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>8-10, 14, 16</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="B9FED6F3-DB7E-4CFC-A6E4-C81B2DA82A20" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="4ED3FEDD-61FF-4927-9232-EF623E239A4D" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="387B47A7-BBBA-4767-B4FD-25F2A3820F9A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="032F03C1-9069-4662-9671-8D998515651B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="7A2943A7-B861-4F10-9000-815E3B509E78" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="C4446198-5829-4E19-8851-2233CFB25CB6" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="66557713-51C9-40D9-A068-1ACD340EA587" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.104808 0.177567 0.135684</BackgroundColor>
+        <DefaultFont>ComicSansMS</DefaultFont>
+        <DefaultTextColor>0.999886 1.0 0.99984</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
