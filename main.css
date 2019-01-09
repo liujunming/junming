@@ -1,0 +1,83 @@
+body {
+    background-color: #ccdddd;
+    color: #333333;
+    font-family: Palatino;
+    padding: 10px;
+}
+div.module {
+    background: white none repeat scroll 0 0;
+    border-radius: 9px;
+    box-shadow: 0 5px 5px #333333;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 40px;
+    width: 700px;
+}
+li {
+    margin-bottom: 1em;
+    margin-top: 0.3em;
+}
+a {
+    text-decoration: none;
+}
+div#header {
+    height: 100px;
+    width: 530px;
+}
+div#name-area {
+    float: left;
+    font-family: Helvetica;
+}
+span#name {
+    font-size: 40px;
+    font-weight: bold;
+}
+span#title {
+    font-size: 27px;
+}
+span#honor {
+    font-size: 26px;
+}
+div#contact-info {
+    float: right;
+}
+div.picture {
+    background: black none repeat scroll 0 0;
+    border-radius: 9px;
+    box-shadow: 0 5px 5px #333333;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px;
+    width: 370px;
+}
+.self-picture-container .sb-inner {
+    background-color: black;
+}
+.self-picture {
+    height: 460px;
+    padding-top: 10px;
+    width: 400px;
+}
+ul.jump-bar {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+ul.jump-bar li {
+    display: inline;
+    font-weight: bold;
+}
+
+headtab {
+    width: 100%;
+}
+h2 {
+    color: blue;
+    font-family: Helvetica;
+}
+h1 {
+    color: black;
+    font-family: Arial;
+}

@@ -1,0 +1,35 @@
+body {
+  margin-left: 5em;
+  margin-right: 10em;
+  /*font-family: 'Verdana', sans-serif;
+  /*font-family: 'Lucida Sans Unicode', 'Lucida Grandea', sans-serif;*/
+  /*font-family: 'Lucida Console', Monaco, sans-serif;*/
+  font-family: 'Open Sans';
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Open Sans';
+  color: #820000;
+}
+
+
+:link {
+  color: #820000;
+}
+
+:visited {
+  color: #660000;
+}
+
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  color: #820000;
+}
+
+li p{
+  color: #000;
+}
