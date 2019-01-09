@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ScappleDocument Version="1.1" ID="111D296F-8A0C-4985-816F-201B5F77EEFC">
     <Notes>
-        <Note ID="8" FontSize="16.0" Position="213.742188,188.425781" Width="158.0">
+        <Note ID="8" FontSize="16.0" Position="214.0,188.0" Width="158.0">
             <Appearance>
                 <Alignment>Center</Alignment>
                 <TextColor>0.900595 0.260383 0.214563</TextColor>
@@ -11,7 +11,7 @@
             <ConnectedNoteIDs>9-10</ConnectedNoteIDs>
             <PointsToNoteIDs>9-10</PointsToNoteIDs>
         </Note>
-        <Note ID="9" FontSize="12.0" Position="520.757812,136.914062" Width="31.0">
+        <Note ID="9" FontSize="12.0" Position="521.0,137.0" Width="31.0">
             <Appearance>
                 <Alignment>Center</Alignment>
                 <TextColor>0.332069 0.640919 0.920381</TextColor>
@@ -20,7 +20,7 @@
             <String>LRU</String>
             <ConnectedNoteIDs>8, 14</ConnectedNoteIDs>
         </Note>
-        <Note ID="10" FontSize="12.0" Position="518.0,246.410156" Width="38.0">
+        <Note ID="10" FontSize="12.0" Position="518.0,246.0" Width="38.0">
             <Appearance>
                 <Alignment>Center</Alignment>
                 <TextColor>0.332069 0.640919 0.920381</TextColor>
@@ -29,7 +29,7 @@
             <String>LIRS</String>
             <ConnectedNoteIDs>8</ConnectedNoteIDs>
         </Note>
-        <Note ID="14" FontSize="12.0" Position="623.773438,92.425781" Width="119.0">
+        <Note ID="14" FontSize="12.0" Position="624.0,92.0" Width="119.0">
             <Appearance>
                 <Alignment>Center</Alignment>
                 <Border Style="Square">1.0 1.0 1.0</Border>
@@ -37,16 +37,23 @@
             <String>Token-ordered LRU</String>
             <ConnectedNoteIDs>9</ConnectedNoteIDs>
         </Note>
-        <Note ID="16" FontSize="12.0" Position="757.929688,92.0" Width="193.0">
+        <Note ID="16" FontSize="12.0" Position="758.0,92.0" Width="193.0">
             <Appearance>
                 <Alignment>Center</Alignment>
                 <Border Style="Square">1.0 1.0 1.0</Border>
             </Appearance>
             <String>https://lwn.net/Articles/96621/</String>
         </Note>
+        <Note ID="17" FontSize="12.0" Position="574.769531,246.0" Width="249.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>https://www.jianshu.com/p/036f82975f81</String>
+        </Note>
     </Notes>
     <BackgroundShapes></BackgroundShapes>
-    <AutoFit>8-10, 14, 16</AutoFit>
+    <AutoFit>8-10, 14, 16-17</AutoFit>
     <NoteStyles>
         <Style Name="Bubble (Blue)" ID="B9FED6F3-DB7E-4CFC-A6E4-C81B2DA82A20" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>
